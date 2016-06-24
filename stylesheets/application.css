@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+.ico_desc{
+  font-size:0.88em;
+}
+
 article,
 aside,
 details,
@@ -3649,8 +3653,14 @@ tbody.collapse.in {
   padding: 30px 0;
   margin-bottom: 0;
   color: white;
-  /*background-color: #242643;*/
-  background: #2e2f41 url(../images/bg-4.png) 0 0 no-repeat;
+  /*background-color: #6034c8;*/
+  background: #6034c8; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #5d44f8, #602eb3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #5d44f8, #602eb3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #5d44f8, #602eb3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #5d44f8, #602eb3); /* Standard syntax */
+
+  /*background: #2e2f41 url(../images/bg-4.png) 0 0 no-repeat;*/
   background-size: cover;
   text-align: center;
 }
@@ -3696,7 +3706,7 @@ tbody.collapse.in {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 180px;
   height: auto;
   margin-top: 50px;
   margin-bottom: 20px;
